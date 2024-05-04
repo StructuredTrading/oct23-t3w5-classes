@@ -43,9 +43,16 @@ export default class PokemonTeam extends React.Component {
             // console.log("UUID example");
             // console.log(crypto.randomUUID());
         }
-
+        
+        
 	}
+    
+    componentDidUpdate() {
+        console.log("This component has updated and re-rendered!");
+    }
 
+
+    
 	// Store data from each request
 
 	// Pass each data to PokemonCard components 
